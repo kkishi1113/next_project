@@ -1,5 +1,11 @@
 # Next.js 開発環境構築
 
+## ファイルの準備をする
+下記の二つのファイルをプロジェクトディレクトリに配置する
+- Dockerfile
+- docker-compose.yml
+
+## プロジェクトディレクトリをVSCodeで開き、ターミナルを開く
 Dockerfileからイメージをビルドする。下記のコマンドを実行
 ```
 docker-compose build
