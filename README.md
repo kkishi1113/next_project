@@ -36,3 +36,15 @@ docker-compose down
 docker-compose up -d
 ```
 
+shadcnuiをインストール
+'''
+docker exec -it next_project-front-1 bash
+bunx shadcn-ui@latest
+'''
+
+オプション選択
+'''
+✔ Which style would you like to use? › Default
+✔ Which color would you like to use as base color? › Zinc
+✔ Would you like to use CSS variables for colors? … no / yes
+'''
