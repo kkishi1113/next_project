@@ -42,7 +42,7 @@ docker-compose down
 docker-compose up -d
 ```
 
-shadcnuiをインストール
+コンテナ内でshadcnuiをインストール
 '''
 docker exec -it next_project-front-1 bash
 bunx shadcn-ui@latest
